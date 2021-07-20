@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* estilos principales */
+.contenedorPrinc {
+  background-color: #373d80;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Color de la navbar */
+.navbar_color {
+  background: -webkit-gradient(linear, left top, right top, from(#7b60c7), to(#e08efb));
+  background: linear-gradient(to right, #7b60c7, #e08efb);
+}
+
+/* fuente del nombre de la navbar */
+.logo_name {
+  font-family: "Questrial", sans-serif;
+}
+
+/* menu de la navbar a la izquierda */
+#navbarNav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* para sacar un padding de la navbar */
+nav {
+  padding: 0px !important;
+}
+
+.imagenPrinc {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.seccion1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* estilo nombre seccion 1 */
+#nombrePrinc {
+  padding: 10px;
+  color: #e08efb;
+  font-family: "Montserrat", sans-serif;
+}
+
+#iconoSeccion1 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* estilo subtitulo*/
+#subtitulo {
+  padding: 10px;
+  color: #e08efb;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

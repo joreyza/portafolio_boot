@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* estilos principales */
+.contenedorPrinc {
+    background-color: $color2;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Color de la navbar */
+.navbar_color {
+    background: linear-gradient(to right, $color3, $color4);
+}
+
+/* fuente del nombre de la navbar */
+.logo_name {
+    font-family: $fuente1;
+}
+
+/* menu de la navbar a la izquierda */
+#navbarNav {
+    justify-content: flex-end
+}
+
+/* para sacar un padding de la navbar */
+nav {
+    padding: 0px !important;
+}
+
+.imagenPrinc {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* estilo nombre seccion 1 */
+#nombrePrinc {
+    padding: 10px;
+    color: $color4;
+    font-family: $fuente2;
+}
+
+#iconoSeccion1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* estilo subtitulo*/
+#subtitulo {
+    padding: 10px;
+    color: $color4;
+    font-family: $fuente2;
+    font-size: 20px;
+    text-align: center;
+}
