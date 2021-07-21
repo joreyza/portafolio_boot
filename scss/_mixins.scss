@@ -1,5 +1,11 @@
-@mixin estiloIconos {
+@mixin estilosIconos {
     color: white;
     display: flex;
     justify-content: center;
+}
+
+@mixin estilosTitulos {
+    padding: 10px;
+    font-family: $fuente2;
+    text-align: center;
 }

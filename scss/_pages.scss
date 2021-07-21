@@ -1,3 +1,5 @@
+@import "mixins";
+
 * {
     margin: 0;
     padding: 0;
@@ -53,19 +55,21 @@ nav {
     justify-content: center;
 }
 
-/* estilo nombre seccion 1 */
+/* estilo nombres titulos */
 #nombrePrinc {
-    padding: 10px;
+    @include estilosTitulos;
     color: $color4;
-    font-family: $fuente2;
-    text-align: center;
-
 }
 
-#iconoSeccion1 {
-    color: white;
-    display: flex;
-    justify-content: center;
+#nombreSeccion2 {
+    @include estilosTitulos;
+    color: $color8;
+}
+
+/* Estilo de los iconos*/
+#iconoSeccion1,
+#iconoSeccion2 {
+    @include estilosIconos;
 }
 
 /* estilo subtitulo*/
@@ -75,4 +79,8 @@ nav {
     font-family: $fuente2;
     font-size: 20px;
     text-align: center;
+}
+
+.parrafo1 {
+    background-color: $color6;
 }
