@@ -64,6 +64,10 @@ nav {
           justify-content: center;
 }
 
+.imagenS2 {
+  width: 30vw;
+}
+
 /* estilo nombres titulos */
 #nombrePrinc {
   padding: 10px;
@@ -77,6 +81,8 @@ nav {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #085aca;
+  margin: 10px;
+  padding: 10px;
 }
 
 /* Estilo de los iconos*/
@@ -91,6 +97,10 @@ nav {
           justify-content: center;
 }
 
+#iconoSeccion2 {
+  margin: 10px;
+}
+
 /* estilo subtitulo*/
 #subtitulo {
   padding: 10px;
@@ -100,7 +110,11 @@ nav {
   text-align: center;
 }
 
-.parrafo1 {
+.seccion2 {
   background-color: #0efff8;
+}
+
+.parrafoS2 {
+  padding: 20px;
 }
 /*# sourceMappingURL=main.css.map */

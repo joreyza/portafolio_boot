@@ -55,6 +55,10 @@ nav {
     justify-content: center;
 }
 
+.imagenS2 {
+    width: 30vw;
+}
+
 /* estilo nombres titulos */
 #nombrePrinc {
     @include estilosTitulos;
@@ -64,12 +68,18 @@ nav {
 #nombreSeccion2 {
     @include estilosTitulos;
     color: $color8;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Estilo de los iconos*/
 #iconoSeccion1,
 #iconoSeccion2 {
     @include estilosIconos;
+}
+
+#iconoSeccion2 {
+    margin: 10px;
 }
 
 /* estilo subtitulo*/
@@ -81,6 +91,10 @@ nav {
     text-align: center;
 }
 
-.parrafo1 {
+.seccion2 {
     background-color: $color6;
+}
+
+.parrafoS2 {
+    padding: 20px;
 }
